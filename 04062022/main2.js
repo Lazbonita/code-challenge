@@ -3,5 +3,5 @@
 //rounded down to the integer (= floored).
 
 function cockroachSpeed(s) {
-    return Math.floor(s*100000/3600)
+    return Math.floor(s*1000/36)
   }

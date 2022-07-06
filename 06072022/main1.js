@@ -50,5 +50,6 @@ function scrabbleScore(str){
   function scrabbleScore(str) {
     return [].reduce.call(str.toUpperCase(), (a, c) => a + ($dict[c] || 0), 0);
   }
+  
 
 
